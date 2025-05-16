@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { 
   Ambulance, 
@@ -65,21 +66,21 @@ const Index = () => {
             <span className="font-bold text-medical-dark-blue text-xl hidden sm:inline">Infirmerie24</span>
           </div>
           <div className="flex gap-4">
-            <Button variant="outline" className="border-medical-blue text-medical-blue hover:bg-medical-blue/5" asChild>
+            <Button variant="outline" className="border-medical-blue text-medical-blue hover:bg-medical-blue/5 w-[150px]" asChild>
               <a href="#services">Nos services</a>
             </Button>
-            <CallButton phoneNumber="25 167 131" label="Appeler maintenant" />
+            <CallButton phoneNumber="25 167 131" label="Appeler maintenant" className="w-[150px]" />
           </div>
         </div>
       </header>
 
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-medical-light-green/10 to-medical-blue/10 pt-16 pb-20 border-b">
+      <section className="relative bg-gradient-to-br from-medical-light-green/10 to-medical-blue/10 pt-12 pb-16 border-b">
         <div className="container mx-auto px-4 md:px-8">
           <div className="flex flex-col md:flex-row items-center">
-            <div className={`md:w-1/2 mb-10 md:mb-0 ${isVisible ? 'opacity-100' : 'opacity-0'} transition-opacity duration-500`}>
+            <div className={`md:w-2/5 mb-10 md:mb-0 ${isVisible ? 'opacity-100' : 'opacity-0'} transition-opacity duration-500`}>
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-                Infirmerie24 – Votre infirmerie 24 h/24 à domicile
+                Votre infirmier(e)s pour vos soins à Domicile 🚑
               </h1>
               <p className="text-xl sm:text-2xl text-gray-700 mb-8">
                 Soins infirmiers & location de matériel médical
@@ -96,9 +97,9 @@ const Index = () => {
                 </Button>
               </div>
             </div>
-            <div className="md:w-1/2 flex justify-center">
+            <div className="md:w-3/5 flex justify-center">
               <img
-                src="https://img.freepik.com/free-vector/nurse-visiting-patient-home_23-2148878888.jpg?w=740&t=st=1716135052~exp=1716135652~hmac=272909f2063575fd91e22ac39925ca820af59e628d6b84f682967b63e0b0cedb"
+                src="https://img.freepik.com/free-vector/home-healthcare-flat-composition-with-nurse-visiting-elderly-patient-taking-care-medical-treatment_1284-62098.jpg?w=1060&t=st=1747358722~exp=1747359322~hmac=13fd93908717fe38c9910821a4e7fe0624cbc5a1e8e7347f702c407ca8d78085"
                 alt="Soins infirmiers à domicile"
                 className={`max-w-full h-auto rounded-lg shadow-xl ${isVisible ? 'opacity-100' : 'opacity-0'} transition-opacity duration-700 delay-300`}
               />
@@ -297,7 +298,7 @@ const Index = () => {
                 </a>
               </div>
             </div>
-            <div className="grid grid-cols-1 gap-8">
+            <div className="flex justify-end">
               <div>
                 <h3 className="text-lg font-semibold mb-4 text-medical-light-green">Services</h3>
                 <ul className="space-y-2">
