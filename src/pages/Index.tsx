@@ -300,7 +300,7 @@ const Index = () => {
                   <li><a href="#services" className="text-gray-300 hover:text-white">Hospitalisation à domicile</a></li>
                   <li><a href="#services" className="text-gray-300 hover:text-white">Soins infirmiers</a></li>
                   <li><a href="#services" className="text-gray-300 hover:text-white">Location d'équipement</a></li>
-                  <li><a href="#services" className="text-gray-300 hover:text-white">Aide-soignant·e</a></li>
+                  <li><a href="#services" className="text-gray-300 hover:text-white">Aide soignant(e)</a></li>
                 </ul>
               </div>
             </div>
