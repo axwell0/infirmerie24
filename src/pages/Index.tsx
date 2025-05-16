@@ -57,7 +57,7 @@ const Index = () => {
         <div className="container mx-auto flex justify-between items-center px-4">
           <div className="flex items-center">
             <img 
-              src="/lovable-uploads/4f9b66b0-a4e6-4e8d-bc3c-0782a09752f8.png" 
+              src="/lovable-uploads/logo.jpg"
               alt="Infirmerie24 Logo" 
               className="h-12 mr-2" 
             />
@@ -271,7 +271,7 @@ const Index = () => {
             <div>
               <div className="flex items-center mb-4">
                 <img
-                  src="/lovable-uploads/4f9b66b0-a4e6-4e8d-bc3c-0782a09752f8.png"
+                  src="/lovable-uploads/logo.jpg"
                   alt="Infirmerie24 Logo"
                   className="h-10 mr-2 bg-white rounded-full p-1" 
                 />
