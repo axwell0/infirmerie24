@@ -1,3 +1,4 @@
+
 import { useState, useEffect } from "react";
 import { 
   Ambulance, 
@@ -79,7 +80,7 @@ const Index = () => {
           <div className="flex flex-col md:flex-row items-center">
             <div className={`md:w-1/2 mb-10 md:mb-0 ${isVisible ? 'opacity-100' : 'opacity-0'} transition-opacity duration-500`}>
               <h1 className="text-3xl sm:text-4xl md:text-5xl font-bold text-gray-900 mb-4 leading-tight">
-                Infirmerie24 – Votre infirmerie 24 h/24 à domicile
+                Infirmerie24 – Votre infirmier(e)s pour vos soins à Domicile 🚑
               </h1>
               <p className="text-xl sm:text-2xl text-gray-700 mb-8">
                 Soins infirmiers & location de matériel médical
@@ -319,3 +320,4 @@ const Index = () => {
 };
 
 export default Index;
+
