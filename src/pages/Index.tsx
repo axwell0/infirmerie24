@@ -241,7 +241,7 @@ const Index = () => {
               />
               <div className="flex items-center gap-2 text-gray-600 mb-4">
                 <MapPin className="h-5 w-5 text-medical-blue" />
-                <span>Cité el Wahat, Tunis 2078</span>
+                <span>Tunis 1006</span>
               </div>
               <div className="flex items-center gap-2 text-gray-600">
                 <Clock className="h-5 w-5 text-medical-blue" />
@@ -250,7 +250,7 @@ const Index = () => {
             </div>
             <div className="md:w-1/2 h-80 w-full rounded-lg overflow-hidden shadow-lg">
               <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.2546207354985!2d10.257578575748603!3d36.860323764308184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12e2b5fdfe226713%3A0x93fca3aab21a61d5!2zSW5maXJtZXJpZSAyNCDZhdit2YQg2KrZhdix2YrYtiAiTWVkaS0gU2Vydm8i!5e0!3m2!1sen!2stn!4v1747364021075!5m2!1sen!2stn"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3192.8441253827004!2d10.1663484!3d36.846209!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x12fd337d39fca5af%3A0xccd308f5c960bd8e!2sInfirmerie%20Mahmoud!5e0!3m2!1sen!2stn!4v1747395035953!5m2!1sen!2stn"
                 width="100%"
                 height="100%"
                 style={{ border: 0 }}
