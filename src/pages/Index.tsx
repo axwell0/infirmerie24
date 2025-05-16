@@ -64,7 +64,12 @@ const Index = () => {
             />
             <span className="font-bold text-medical-dark-blue text-xl hidden sm:inline">Infirmerie24</span>
           </div>
-          <CallButton phoneNumber="25 167 131" label="Appeler maintenant" />
+          <div className="flex gap-4">
+            <Button variant="outline" className="border-medical-blue text-medical-blue hover:bg-medical-blue/5" asChild>
+              <a href="#services">Nos services</a>
+            </Button>
+            <CallButton phoneNumber="25 167 131" label="Appeler maintenant" />
+          </div>
         </div>
       </header>
 
@@ -86,8 +91,8 @@ const Index = () => {
                   large
                   className="w-full sm:w-auto"
                 />
-                <Button variant="outline" className="border-medical-blue text-medical-blue hover:bg-medical-blue/5 w-full sm:w-auto">
-                  Nos services
+                <Button variant="outline" className="border-medical-blue text-medical-blue hover:bg-medical-blue/5 w-full sm:w-auto" asChild>
+                  <a href="#services">Nos services</a>
                 </Button>
               </div>
             </div>
@@ -292,22 +297,14 @@ const Index = () => {
                 </a>
               </div>
             </div>
-            <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
+            <div className="grid grid-cols-1 gap-8">
               <div>
                 <h3 className="text-lg font-semibold mb-4 text-medical-light-green">Services</h3>
                 <ul className="space-y-2">
-                  <li><a href="#" className="text-gray-300 hover:text-white">Hospitalisation à domicile</a></li>
-                  <li><a href="#" className="text-gray-300 hover:text-white">Soins infirmiers</a></li>
-                  <li><a href="#" className="text-gray-300 hover:text-white">Location d'équipement</a></li>
-                  <li><a href="#" className="text-gray-300 hover:text-white">Aide-soignant·e</a></li>
-                </ul>
-              </div>
-              <div>
-                <h3 className="text-lg font-semibold mb-4 text-medical-light-green">Liens Légaux</h3>
-                <ul className="space-y-2">
-                  <li><a href="#" className="text-gray-300 hover:text-white">Mentions légales</a></li>
-                  <li><a href="#" className="text-gray-300 hover:text-white">Politique de confidentialité</a></li>
-                  <li><a href="#" className="text-gray-300 hover:text-white">Conditions d'utilisation</a></li>
+                  <li><a href="#services" className="text-gray-300 hover:text-white">Hospitalisation à domicile</a></li>
+                  <li><a href="#services" className="text-gray-300 hover:text-white">Soins infirmiers</a></li>
+                  <li><a href="#services" className="text-gray-300 hover:text-white">Location d'équipement</a></li>
+                  <li><a href="#services" className="text-gray-300 hover:text-white">Aide-soignant·e</a></li>
                 </ul>
               </div>
             </div>
