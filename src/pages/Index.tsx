@@ -1,4 +1,3 @@
-
 import { useState, useEffect } from "react";
 import { 
   Ambulance, 
@@ -298,7 +297,7 @@ const Index = () => {
                 </a>
               </div>
             </div>
-            <div className="grid grid-cols-1 gap-8">
+            <div className="flex justify-end">
               <div>
                 <h3 className="text-lg font-semibold mb-4 text-medical-light-green">Services</h3>
                 <ul className="space-y-2">
@@ -320,4 +319,3 @@ const Index = () => {
 };
 
 export default Index;
-
