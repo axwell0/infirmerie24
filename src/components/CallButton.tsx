@@ -16,7 +16,7 @@ const CallButton = ({ className, phoneNumber, label, large = false }: CallButton
       ${large ? 'text-lg md:text-xl py-6 px-8' : 'text-sm md:text-base'} ${className}`}
       asChild
     >
-      <a href={`tel:${phoneNumber.replace(/\s+/g, '')}`} className="flex items-center gap-2">
+      <a href="#contact" className="flex items-center gap-2">
         <Phone className={large ? "h-6 w-6" : "h-4 w-4"} />
         {label}
       </a>
