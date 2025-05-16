@@ -10,7 +10,7 @@ import {
   Clock, 
   MapPin, 
   PhoneCall,
-  Medkit
+  Briefcase
 } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import CallButton from "@/components/CallButton";
@@ -155,7 +155,7 @@ const Index = () => {
           
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4 md:gap-6">
             <EquipmentCard icon={Bed} title="Lit médicalisé" />
-            <EquipmentCard icon={Medkit} title="Concentrateur d'oxygène (10–5 L)" />
+            <EquipmentCard icon={Briefcase} title="Concentrateur d'oxygène (10–5 L)" />
             <EquipmentCard icon={Hospital} title="Aspirateur de mucosités" />
             <EquipmentCard icon={Syringe} title="Nébuliseur" />
           </div>
